@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T06:17:22.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" version="14.1.2" etag="h1O7ZanW2_W5mraKbh6g" type="github"><diagram id="iVC6yqc10Y6bP9OqPdiB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-27T06:28:17.413Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="Uu9yEXZ1gg_g-RkiQTCk" version="14.1.2" type="github">
+  <diagram id="iVC6yqc10Y6bP9OqPdiB" name="Page-1">
+    <mxGraphModel dx="946" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJuCiL8H0t_PvX9Zqoa--2" target="jJuCiL8H0t_PvX9Zqoa--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--2" value="创建线程" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jJuCiL8H0t_PvX9Zqoa--3" target="jJuCiL8H0t_PvX9Zqoa--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--3" value="升序遍历反置页表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--10" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJuCiL8H0t_PvX9Zqoa--6" target="jJuCiL8H0t_PvX9Zqoa--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJuCiL8H0t_PvX9Zqoa--6" target="jJuCiL8H0t_PvX9Zqoa--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--6" value="内存满？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--9" value="线程调入失败" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="75" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jJuCiL8H0t_PvX9Zqoa--11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--11" value="修改页表项&lt;br&gt;修改内存线性表&lt;br&gt;为used" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="402.5" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jJuCiL8H0t_PvX9Zqoa--14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--14" value="内存中线程cnt++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="415" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jJuCiL8H0t_PvX9Zqoa--16" value="线程调入成功" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="445" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
